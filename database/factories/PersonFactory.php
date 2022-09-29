@@ -19,7 +19,7 @@ class PersonFactory extends Factory
         return [
             "name" => $this->faker->name,
             "email" => $this->faker->email,
-            "phone" => $this->faker->phone,
+            "phone" => $this->faker->phoneNumber,
             "card" => $this->faker->creditCardType,
             "cardnumber" => $this->faker->creditCardNumber 
         ];
